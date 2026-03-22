@@ -1,6 +1,7 @@
 
 - name: roles demo
-  hosts: local
+  hosts: localhost
   connection: local
+  become : yes
   roles:
   - demo
