@@ -10,3 +10,4 @@ MYSQL_HOST : mysql-{{ env }}.luckyy.shop
 SHIPPING_HOST : shipping-{{ env }}.luckyy.shop
 RABBITMQ_HOST : rabbitmq-{{ env }}.luckyy.shop
 PAYMENT_HOST : payment-{{ env }}.luckyy.shop
+app_version: v3
