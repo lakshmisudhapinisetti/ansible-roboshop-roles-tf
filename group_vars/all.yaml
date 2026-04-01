@@ -2,12 +2,12 @@ ansible_user: ec2-user
 ansible_password: DevOps321
 
 MONGODB_HOST : mongodb-{{ env }}.luckyy.shop
-CATALOGUE_HOST: catalogue-{{ env }}.luckyy.shop
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.luckyy.shop
 REDIS_HOST : redis-{{ env }}.luckyy.shop
-USER_HOST : user-{{ env }}.luckyy.shop
-CART_HOST : cart-{{ env }}.luckyy.shop
+USER_HOST : user.backend-alb-{{ env }}.luckyy.shop
+CART_HOST : cart.backend-alb-{{ env }}.luckyy.shop
 MYSQL_HOST : mysql-{{ env }}.luckyy.shop
-SHIPPING_HOST : shipping-{{ env }}.luckyy.shop
+SHIPPING_HOST : shipping.backend-alb-{{ env }}.luckyy.shop
 RABBITMQ_HOST : rabbitmq-{{ env }}.luckyy.shop
-PAYMENT_HOST : payment-{{ env }}.luckyy.shop
+PAYMENT_HOST : payment.backend-alb-{{ env }}.luckyy.shop
 app_version: v3
